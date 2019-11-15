@@ -8,6 +8,6 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Hello, Boot Spring Boot!!";
+        return "Hello, Boot Spring Boot!! test ";
     }
 }
